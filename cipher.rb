@@ -14,5 +14,4 @@ def caesar_cipher(str = '', shift = 0)
     end
 end
 
-require 'pry'
-binding.pry
+puts caesar_cipher('Hello world! =)', 20)
